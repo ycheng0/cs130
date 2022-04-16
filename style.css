@@ -28,7 +28,7 @@ body {
     font: 'Roboto Condensed Light', sans-serif, 300;
 }
 header, section {
-    padding: px;
+    padding: 0.5px;
 }
 p, li {
     line-height: 1.5em;
