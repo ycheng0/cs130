@@ -32,3 +32,10 @@ main{
 li {
     line-height: 1.5em;
 }
+.first{
+    margin-bottom: 0;
+}
+
+.second{
+    margin-top: 0;
+}
