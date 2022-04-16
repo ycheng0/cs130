@@ -13,7 +13,6 @@ h1{
 
 #tutorials{
     background-color: #E8CAB5;
-    display: inline;
     padding-top:40px;
     padding-bottom:40px;
 
@@ -22,7 +21,6 @@ h1{
 
 #homework{
     background-color: #FFE8D6;
-    display: inline;
     padding-top:40px;
     padding-bottom:40px;
 
@@ -32,7 +30,6 @@ h1{
     background-color: #DBD0BD;
     padding-top:40px;
     padding-bottom:40px;
-    display: inline;
       
 }
 
@@ -40,7 +37,6 @@ h1{
     background-color: #BBB8A4;
     padding-top:40px;
     padding-bottom:40px;
-    display: inline;
 }
 
 body {
