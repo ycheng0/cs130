@@ -29,7 +29,9 @@ header, section {
 p, li {
     line-height: 1.5em;
 }
-
+section{
+    margin:auto
+}
 
 
 #tutorials{
