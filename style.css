@@ -41,11 +41,13 @@ p, li {
     background-color: #FFE8D6;
     height:100%;
     width: 25%;
+    display: inline;
 }
 #homework{
-    background-color: #DBD0BD;
+    background-color: #E8CAB5;
     height:100%;
     width: 50%;
+    display: inline;
    
 
 }
@@ -53,11 +55,12 @@ p, li {
     background-color: #DBD0BD;
     height:100%;
     width: 75%;
+    display: inline;
 
 }
 #inspiration {
     background-color:#BBB8A4;
     height:100%;
     width: 100%;
-    
+    display: inline;
 }
