@@ -1,7 +1,7 @@
-
 * {
     box-sizing: border-box;
 }
+
 
 h1{
     background-color: #EED3C0;
@@ -10,36 +10,46 @@ h1{
     font-size: 50px;
     text-align: center 
 }
-body {
-    margin: 0px;
-}
-header, section {
-    padding: 0.5px;
-    height: auto
-}
-li {
-    line-height: 1.5em;
-}
-
-#inspiration {
-    background-color: #BBB8A4;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 #tutorials{
     background-color: #E8CAB5;
     display: inline-block;
+    min-height: 100vh;
+
 }
 
 #homework{
     background-color: #FFE8D6;
     display: inline-block;
+    min-height: 100vh;
 
 }
 
 #lectures{
-    background-color: #DBD0BD; 
+    background-color: #DBD0BD;
+    min-height: 100vh;
     display: inline-block;
+
+    
 }
+
+#inspiration{
+    background-color: #BBB8A4;
+    min-height: 100vh;
+    display: inline-block;
+
   
+
+body {
+    margin: 0px;
+}
+header, section {
+    padding: 0.5px;
+    height: auto;
+    min-height: 40vh;
+    max-width:100px;
+}
+
+li {
+    line-height: 1.5em;
+}
