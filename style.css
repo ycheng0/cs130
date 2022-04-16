@@ -17,6 +17,7 @@ h1{
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
 main{
     font: 'Roboto Condensed Regular', sans-serif, 400;
+    display: inline-block;
 }
 
 body {
