@@ -15,9 +15,9 @@ p, li {
 }
 
 #inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #BBB8A4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -49,10 +49,4 @@ h1{
     display: inline-block;
 
     
-}
-
-#inspiration{
-    background-color: #BBB8A4;
-    min-height: 100vh;
-    display: inline-block;
 }
