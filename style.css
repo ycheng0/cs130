@@ -34,25 +34,7 @@ p, li {
 
 #tutorials{
     background-color: #FFE8D6;
-    display: inline-block;
-}
-#homework{
-    background-color: #E8CAB5;
     height:100%;
-    width: 200px;
-    display: inline-block;
-
-}
-#lectures{
-    background-color: #DBD0BD;
-    height:100%;
-    width: 200px;
-    display: inline-block;
-
-}
-#inspiration {
-    background-color:#BBB8A4;
-    height:800px;
     width: 200px;
     display: inline-block;
 }
