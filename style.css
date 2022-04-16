@@ -20,12 +20,12 @@ body {
 header{
     padding: 10 px;
     height: auto;
-    text-align: center 
+    text-align: center; 
 }
 section {
     padding: 15 px;
     height: auto;
-    text-align: left
+    text-align: center;
 }
 
 main{
