@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 h1{
-    background-color: #FFE8D6;
+    background-color: #EED3C0;
     font-family: 'Bebas Neue', cursive;
     height:60px;
     width: 100%;
@@ -20,6 +20,10 @@ main{
     font-family: 'Roboto Condensed Regular', sans-serif, 400;
 }
 
+
+
+
+
 body {
     margin: 0px;
     font-family: 'Roboto Condensed Light', sans-serif, 300;
@@ -31,8 +35,27 @@ p, li {
     line-height: 1.5em;
 }
 
+
+
+#tutorial {
+    background-color: #FFE8D6;
+    height:100%;
+    width: 1/3;
+    align-items: left;
+
+}
+#homework{
+    background-color: #DBD0BD;
+    height:100%;
+    width: 1/3;
+    align-items: center;
+
+}
+
 #inspiration {
-    background-color: #F0F0F0;
+    background-color:#BBB8A4;
     padding-top: 40px;
     padding-bottom: 40px;
+    align-items: left;
+
 }
