@@ -12,7 +12,6 @@ h1{
 }
 body {
     margin: 0px;
-    font-family: Calibri, sans-serif;
 }
 header, section {
     padding: 0.5px;
@@ -28,25 +27,19 @@ li {
     padding-bottom: 20px;
 }
 
-
-
-
 #tutorials{
     background-color: #E8CAB5;
     display: inline-block;
-    min-height: 100vh;
-
 }
 
 #homework{
     background-color: #FFE8D6;
     display: inline-block;
-    min-height: 100vh;
 
 }
 
 #lectures{
-    background-color: #DBD0BD;
-    min-height: 100vh;
+    background-color: #DBD0BD; 
     display: inline-block;
 }
+  
