@@ -32,27 +32,33 @@ li {
 
 #tutorials{
     background-color: #E8CAB5;
-    height: auto;
+    height: 580px;
     min-height: 40vh;
+    display: inline-block;
 
 }
-
+section{
+    margin: auto;
+}
 #homework{
     background-color: #FFE8D6;
-    height: auto;
+    height: 580px;
     min-height: 40vh;
+    display: inline-block;
 
 }
 
 #lectures{
     background-color: #DBD0BD;
-    height: auto;
+    height: 580px;
     min-height: 40vh;
+    display: inline-block;
     
 }
 
 #inspiration{
     background-color: #BBB8A4;
-    height: auto;
+    height: 580px;
     min-height: 40vh;
+    display: inline-block;
 }
