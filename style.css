@@ -11,16 +11,18 @@ h1{
 }
 
 
-#inspiration{
-    background-color: #BBB8A4;
-}
-
 body {
     margin: 0px;
 }
-header, section {
-    padding: 20 px;
+header{
+    padding: 10 px;
     height: auto;
+    text-align: center 
+}
+section {
+    padding: 15 px;
+    height: auto;
+    text-align: center 
 }
 
 main{
