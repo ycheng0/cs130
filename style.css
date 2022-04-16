@@ -26,13 +26,9 @@ body {
 header, section {
     padding: 0.5px;
 }
-p, li {
+li {
     line-height: 1.5em;
 }
-section{
-    margin:auto
-}
-
 
 #tutorials{
     background-color: #E8CAB5;
