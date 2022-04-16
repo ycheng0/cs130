@@ -14,28 +14,8 @@ h1{
     text-align: center 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
-main{
-    font: 'Roboto Condensed Regular', sans-serif, 400;
-    display: inline-block;
-}
-
-body {
-    margin: 0px;
-}
-header, section {
-    padding: 0.5px;
-    height: auto;
-    min-height: 40vh;
-    max-width:100px;
-}
-li {
-    line-height: 1.5em;
-}
-
 #tutorials{
     background-color: #E8CAB5;
-  
     display: inline-block;
 
 }
@@ -56,3 +36,23 @@ li {
     background-color: #BBB8A4;
     display: inline-block;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
+main{
+    font: 'Roboto Condensed Regular', sans-serif, 400;
+    display: inline-block;
+}
+
+body {
+    margin: 0px;
+}
+header, section {
+    padding: 0.5px;
+    height: auto;
+    min-height: 40vh;
+    max-width:100px;
+}
+li {
+    line-height: 1.5em;
+}
+
+
