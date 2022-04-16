@@ -34,28 +34,28 @@ p, li {
 
 #tutorials{
     background-color: #E8CAB5;
-    width: 200px;
-    height: 1000px;
+    width: 782px;
+    height: 220px;
     display: inline-block;
 }
 
 #homework{
     background-color: #FFE8D6;
-    width: 200px;
-    height: 1000px;
+    width: 782px;
+    height: 220px;
     display: inline-block;
 }
 
 #lectures{
     background-color: #DBD0BD;
-    width: 200px;
-    height: 1000px;
+    width: 782px;
+    height: 220px;
     display: inline-block;
 }
 
 #inspiration{
     background-color: #BBB8A4;
-    width: 200px;
-    height: 1000px;
+    width: 782px;
+    height: 220px;
     display: inline-block;
 }
