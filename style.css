@@ -21,7 +21,6 @@ main{
 
 body {
     margin: 0px;
-    font: 'Roboto Condensed Light', sans-serif, 300;
 }
 header, section {
     padding: 0.5px;
@@ -33,7 +32,6 @@ li {
 #tutorials{
     background-color: #E8CAB5;
     height: 580px;
-    min-height: 40vh;
     display: inline-block;
 
 }
@@ -41,7 +39,6 @@ li {
 #homework{
     background-color: #FFE8D6;
     height: 580px;
-    min-height: 40vh;
     display: inline-block;
 
 }
@@ -49,7 +46,6 @@ li {
 #lectures{
     background-color: #DBD0BD;
     height: 580px;
-    min-height: 40vh;
     display: inline-block;
     
 }
@@ -57,6 +53,5 @@ li {
 #inspiration{
     background-color: #BBB8A4;
     height: 580px;
-    min-height: 40vh;
     display: inline-block;
 }
