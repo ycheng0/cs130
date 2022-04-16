@@ -19,7 +19,7 @@ h1{
 
 }
 
-#homework{
+homework{
     background-color: #FFE8D6;
     padding-top:40px;
     padding-bottom:40px;
@@ -44,6 +44,7 @@ h1{
 
 body {
     margin: 0px;
+    background-color: #DBD0BD;
 }
 header, section {
     padding: 0.5px;
