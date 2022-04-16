@@ -52,12 +52,14 @@ main{
 body {
     margin: 0px;
 }
-header, section {
+header{
     padding: 0.5px;
     min-height: 100vh;
-    display: inline-block;
-    height:952px;
-    width: 175px;
+}
+section {
+display: inline-block;
+height:952px;
+width: 175px;
 }
 li {
     line-height: 1.5em;
