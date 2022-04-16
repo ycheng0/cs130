@@ -33,8 +33,29 @@ p, li {
 
 
 #tutorials{
+    background-color: #E8CAB5;
+    width: 200px;
+    height: 1000px;
+    display: inline;
+}
+
+#homework{
     background-color: #FFE8D6;
     width: 200px;
     height: 1000px;
-    display: inline-block;
+    display: inline;
+}
+
+#lectures{
+    background-color: #DBD0BD;
+    width: 200px;
+    height: 1000px;
+    display: inline;
+}
+
+#inspiration{
+    background-color: #BBB8A4;
+    width: 200px;
+    height: 1000px;
+    display: inline;
 }
