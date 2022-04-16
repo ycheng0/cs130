@@ -1,9 +1,17 @@
 /* You're welcome to change any of this! */
+
 * {
     box-sizing: border-box;
 }
 
-h1{ background: 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1{ 
+    
+    background: #FFE8D6;
+    font-family: 'Bebas Neue', cursive;
+    height:50px;
+    width: 100%;
 
 
 }
