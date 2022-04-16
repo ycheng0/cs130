@@ -34,26 +34,25 @@ li {
     background-color: #E8CAB5;
     height: auto;
     min-height: 40vh;
-    display: inline-block;
+
 }
 
 #homework{
     background-color: #FFE8D6;
     height: auto;
     min-height: 40vh;
-    display: inline-block;
+
 }
 
 #lectures{
     background-color: #DBD0BD;
     height: auto;
     min-height: 40vh;
-    display: inline-block;
+    
 }
 
 #inspiration{
     background-color: #BBB8A4;
     height: auto;
     min-height: 40vh;
-    display: inline-block;
 }
