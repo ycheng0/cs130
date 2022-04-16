@@ -18,6 +18,8 @@ h1{
     background-color: #E8CAB5;
     display: inline-block;
     min-height: 100vh;
+    height:952px;
+    width: 175px;
 
 }
 
@@ -25,6 +27,8 @@ h1{
     background-color: #FFE8D6;
     display: inline-block;
     min-height: 100vh;
+    height:952px;
+    width: 175px;
 
 }
 
@@ -32,6 +36,8 @@ h1{
     background-color: #DBD0BD;
     min-height: 100vh;
     display: inline-block;
+    height:952px;
+    width: 175px;
     
 }
 
@@ -39,6 +45,8 @@ h1{
     background-color: #BBB8A4;
     min-height: 100vh;
     display: inline-block;
+    height:952px;
+    width: 175px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
 main{
