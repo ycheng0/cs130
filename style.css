@@ -5,10 +5,9 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 h1{
     background-color: #EED3C0;
-    font: 'Bebas Neue', cursive;
+    font: 'Calibri', bold;
     height:60px;
     width: 100%;
     font-size: 50px;
