@@ -57,5 +57,5 @@ p, li {
     background-color: #BBB8A4;
     width: 200px;
     height: 1000px;
-    display: inline;
+    display: inline-block;
 }
