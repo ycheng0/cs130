@@ -36,21 +36,21 @@ p, li {
     background-color: #E8CAB5;
     width: 200px;
     height: 1000px;
-    display: inline;
+    display: inline-block;
 }
 
 #homework{
     background-color: #FFE8D6;
     width: 200px;
     height: 1000px;
-    display: inline;
+    display: inline-block;
 }
 
 #lectures{
     background-color: #DBD0BD;
     width: 200px;
     height: 1000px;
-    display: inline;
+    display: inline-block;
 }
 
 #inspiration{
