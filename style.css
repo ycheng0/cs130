@@ -7,33 +7,9 @@ h1{
     background-color: #EED3C0;
     height:60px;
     width: 100%;
-    font-size: 50px;
-    text-align: center 
+    font-size: 50px; 
 }
 
-#tutorials{
-    background-color: #E8CAB5;
-    padding-top:40px;
-    padding-bottom:40px;
-    display: inline-block;
-
-}
-
-homework{
-    background-color: #FFE8D6;
-    padding-top:40px;
-    padding-bottom:40px;
-    display: inline-block;
-
-}
-
-#lectures{
-    background-color: #DBD0BD;
-    padding-top:40px;
-    padding-bottom:40px;
-    display: inline-block;
-      
-}
 
 #inspiration{
     background-color: #BBB8A4;
