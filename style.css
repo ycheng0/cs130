@@ -1,4 +1,7 @@
 /* You're welcome to change any of this! */
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -36,13 +39,13 @@ p, li {
 #tutorials{
     background-color: #FFE8D6;
     height:100%;
-    width: 75px;
-    display: inline;
+    width: 100px;
+    display: inline-block;
 }
 #homework{
     background-color: #E8CAB5;
     height:800px;
-    width: 75px;
+    width: 100px;
     display: inline;
    
 
@@ -50,13 +53,13 @@ p, li {
 #lectures{
     background-color: #DBD0BD;
     height:800px;
-    width: 75px;
+    width: 100px;
     display: inline;
 
 }
 #inspiration {
     background-color:#BBB8A4;
     height:800px;
-    width: 75px;
+    width: 100px;
     display: inline;
 }
