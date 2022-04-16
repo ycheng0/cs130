@@ -43,24 +43,18 @@ h1{
     display: inline-block;
 
   
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
-main{
-    font: 'Roboto Condensed Regular', sans-serif, 400;
-    display: inline-block;
-}
+
 
 body {
     margin: 0px;
 }
-header{
+header, section {
     padding: 0.5px;
-    min-height: 100vh;
+    height: auto;
+    min-height: 40vh;
+    max-width:100px;
 }
-section {
-display: inline-block;
-height:952px;
-width: 175px;
-}
+
 li {
     line-height: 1.5em;
 }
