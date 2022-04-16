@@ -3,14 +3,22 @@
     box-sizing: border-box;
 }
 
+h1{
+    background-color: #EED3C0;
+    height:60px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center 
+}
 body {
     margin: 0px;
     font-family: Calibri, sans-serif;
 }
 header, section {
-    padding: 20px;
+    padding: 0.5px;
+    height: auto
 }
-p, li {
+li {
     line-height: 1.5em;
 }
 
@@ -21,13 +29,7 @@ p, li {
 }
 
 
-h1{
-    background-color: #EED3C0;
-    height:60px;
-    width: 100%;
-    font-size: 50px;
-    text-align: center 
-}
+
 
 #tutorials{
     background-color: #E8CAB5;
