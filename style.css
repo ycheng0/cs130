@@ -6,18 +6,23 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap')
+
 h1{ 
-    
-    background: #FFE8D6;
+    background-color: #FFE8D6;
     font-family: 'Bebas Neue', cursive;
-    height:50px;
+    height:60px;
     width: 100%;
-
-
+    font-size: 50px;
 }
+
+main{
+    font-family: 'Roboto Condensed Regular', sans-serif, 400;
+}
+
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif, 300;
 }
 header, section {
     padding: px;
