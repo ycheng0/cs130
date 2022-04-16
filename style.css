@@ -20,7 +20,7 @@ body {
     margin: 0px;
 }
 header, section {
-    padding: 20 px;
+    padding: 0.5 px;
     height: auto;
     min-height: 40vh;
     max-width:100px;
