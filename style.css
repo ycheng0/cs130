@@ -41,28 +41,23 @@ p, li {
     background-color: #FFE8D6;
     height:100%;
     width: 25%;
-    align-items: left;
-
 }
 #homework{
     background-color: #DBD0BD;
     height:100%;
-    width: 25%;
-    align-items: center left;
+    width: 50%;
    
 
 }
 #homework{
     background-color: #DBD0BD;
     height:100%;
-    width: 25%;
-    align-items: center right;
+    width: 75%;
 
 }
 #inspiration {
     background-color:#BBB8A4;
     height:100%;
-    width: 25%;
-    align-items: right;
-
+    width: 100%;
+    
 }
