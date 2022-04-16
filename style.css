@@ -9,15 +9,11 @@ h1{
     width: 100%;
     font-size: 50px; 
     text-align: center;
-    display: block
 }
 
 
 #inspiration{
     background-color: #BBB8A4;
-    padding-top:40px;
-    padding-bottom:40px;
-
 }
 
 body {
@@ -25,6 +21,9 @@ body {
 }
 header, section {
     padding: 20 px;
+    height: auto;
+    min-height: 40vh;
+    max-width:100px;
 }
 
 main{
