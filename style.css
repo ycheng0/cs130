@@ -2,13 +2,12 @@
     box-sizing: border-box;
 }
 
-header{
+h1{
     background-color: #EED3C0;
-    padding: 0.5 px;
-    height: auto;
-    min-height: 40vh;
-    max-width:100px;
-    text-align: center;
+    height:60px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center 
 }
 
 
@@ -19,11 +18,9 @@ header{
 body {
     margin: 0px;
 }
-section {
-    padding: 0.5 px;
+header, section {
+    padding: 20 px;
     height: auto;
-    min-height: 40vh;
-    max-width:100px;
 }
 
 main{
