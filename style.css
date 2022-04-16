@@ -19,10 +19,6 @@ main{
     font: 'Roboto Condensed Regular', sans-serif, 400;
 }
 
-
-
-
-
 body {
     margin: 0px;
     font: 'Roboto Condensed Light', sans-serif, 300;
@@ -38,8 +34,6 @@ p, li {
 
 #tutorials{
     background-color: #FFE8D6;
-    height:100%;
-    width: 200px;
     display: inline-block;
 }
 #homework{
