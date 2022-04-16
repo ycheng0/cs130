@@ -54,15 +54,7 @@ main{
     display: inline-block;
 }
 
-body {
-    margin: 0px;
-}
-header, section {
-    padding: 0.5px;
-    height: auto;
-    min-height: 40vh;
-    max-width:100px;
-}
+
 li {
     line-height: 1.5em;
 }
