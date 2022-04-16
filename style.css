@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-
-h1{
+header{
     background-color: #EED3C0;
-    height:60px;
-    width: 100%;
-    font-size: 50px; 
+    padding: 0.5 px;
+    height: auto;
+    min-height: 40vh;
+    max-width:100px;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ h1{
 body {
     margin: 0px;
 }
-header, section {
+section {
     padding: 0.5 px;
     height: auto;
     min-height: 40vh;
