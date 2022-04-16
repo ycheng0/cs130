@@ -14,7 +14,8 @@ h1{
 #tutorials{
     background-color: #E8CAB5;
     display: inline;
-    padding:40px
+    padding-top:40px;
+    padding-bottom:40px;
 
 
 }
@@ -22,20 +23,23 @@ h1{
 #homework{
     background-color: #FFE8D6;
     display: inline;
-    padding:40px;
+    padding-top:40px;
+    padding-bottom:40px;
 
 }
 
 #lectures{
     background-color: #DBD0BD;
-    padding:40px;
+    padding-top:40px;
+    padding-bottom:40px;
     display: inline;
       
 }
 
 #inspiration{
     background-color: #BBB8A4;
-    padding:40px;
+    padding-top:40px;
+    padding-bottom:40px;
     display: inline;
 }
 .first {
