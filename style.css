@@ -1,62 +1,23 @@
-/* You're welcome to change any of this! */
+
 * {
     box-sizing: border-box;
 }
 
-
-
-h1{
-    background-color: #EED3C0;
-    font: 'Calibri', bold;
-    height:60px;
-    width: 100%;
-    font-size: 50px;
-    text-align: center 
-}
-
-#tutorials{
-    background-color: #E8CAB5;
-    display: inline-block;
-    min-height: 100vh;
-
-}
-
-#homework{
-    background-color: #FFE8D6;
-    display: inline-block;
-    min-height: 100vh;
-
-
-}
-
-#lectures{
-    background-color: #DBD0BD;
-    min-height: 100vh;
-    display: inline-block;
-
-    
-}
-
-#inspiration{
-    background-color: #BBB8A4;
-    min-height: 100vh;
-    display: inline-block;
-
-  
-
-
 body {
     margin: 0px;
+    font-family: , sans-serif;
 }
 header, section {
-    padding: 0.5px;
-    height: auto;
-    min-height: 40vh;
-    max-width:100px;
+    padding: 20px;
+}
+p, li {
+    line-height: 1.5em;
 }
 
-li {
-    line-height: 1.5em;
+#inspiration {
+    background-color: #F0F0F0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
