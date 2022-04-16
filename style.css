@@ -13,7 +13,7 @@ h1{
 
 #tutorials{
     background-color: #E8CAB5;
-    display: inline-block;
+    display: inline;
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -22,7 +22,7 @@ h1{
 
 #homework{
     background-color: #FFE8D6;
-    display: inline-block;
+    display: inline;
     min-height: 100vh;
 
 }
@@ -30,7 +30,7 @@ h1{
 #lectures{
     background-color: #DBD0BD;
     min-height: 100vh;
-    display: inline-block;
+    display: inline;
 
     
 }
