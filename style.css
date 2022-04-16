@@ -21,3 +21,37 @@ p, li {
 }
 
 
+h1{
+    background-color: #EED3C0;
+    height:60px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center 
+}
+
+#tutorials{
+    background-color: #E8CAB5;
+    display: inline-block;
+    min-height: 100vh;
+
+}
+
+#homework{
+    background-color: #FFE8D6;
+    display: inline-block;
+    min-height: 100vh;
+
+}
+
+#lectures{
+    background-color: #DBD0BD;
+    min-height: 100vh;
+    display: inline-block;
+
+    
+}
+
+#inspiration{
+    background-color: #BBB8A4;
+    min-height: 100vh;
+    display: inline-block;
