@@ -6,8 +6,6 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap')
-
 h1{
     background-color: #FFE8D6;
     font-family: 'Bebas Neue', cursive;
@@ -17,6 +15,7 @@ h1{
     text-align: center 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
 main{
     font-family: 'Roboto Condensed Regular', sans-serif, 400;
 }
