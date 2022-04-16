@@ -35,5 +35,6 @@ p, li {
 #tutorials{
     background-color: #FFE8D6;
     width: 200px;
+    height: 1000px;
     display: inline-block;
 }
