@@ -17,24 +17,27 @@ h1{
 #tutorials{
     background-color: #E8CAB5;
     display: inline-block;
-    height: 100%;
+    min-height: 100vh;
 
 }
 
 #homework{
     background-color: #FFE8D6;
     display: inline-block;
+    min-height: 100vh;
 
 }
 
 #lectures{
     background-color: #DBD0BD;
+    min-height: 100vh;
     display: inline-block;
     
 }
 
 #inspiration{
     background-color: #BBB8A4;
+    min-height: 100vh;
     display: inline-block;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
