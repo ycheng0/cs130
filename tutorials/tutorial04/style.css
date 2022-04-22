@@ -1,0 +1,82 @@
+body *{
+   width:100%;
+   box-sizing: border-box;
+}
+body {
+   margin:0;
+
+}
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columns*/ 
+   grid-template-areas: 
+      "menu1 .     menu2 menu2" /* the period is where it is blank*/
+      "card1 card2 card3 aside"
+      "main  main  main  aside";
+   min-height: 100vh;
+}
+
+/* Step 2: assign your HTML elements
+   to the named "grid-areas":*/
+
+.container .menu1 {
+   grid-area: menu1;
+}
+
+.container .menu2 {
+   grid-area: menu2;
+   
+}
+
+.container .card1 {
+   grid-area: card1;
+}
+
+.container .card2 {
+   grid-area: card2;
+}
+
+.container .card3 {
+   grid-area: card3;
+}
+
+.container .main {
+   grid-area: main;
+}
+
+.container .aside {
+   grid-area: aside;
+}
+
+@media (max-width: 1024px) {
+   /* tablet layout here */
+   .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+         "menu1 menu2" /* the period is where it is blank*/
+         "aside aside"
+         "card1 card2"
+         "card3 card3"
+         "main main";
+      min-height: 100vh;
+   
+   }
+@media (max-width: 500px) {
+   .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+         "menu1"
+         "menu2" 
+         "card1"
+         "card2"
+         "card3";
+      min-height: 100vh;
+}
+
+.aside{display:none;}
+.main{display:none}
+}
+
+}
