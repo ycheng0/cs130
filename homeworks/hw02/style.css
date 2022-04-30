@@ -89,6 +89,10 @@ aside{
     padding-right: 20px;
 }
 
+#headphone{
+    border-left: solid 3px green;
+}
+
 a, a:link, a:hover, a:hover, a:visited {
     color:rgb(204, 202, 202);
     border-left: solid 3px transparent;
@@ -96,39 +100,9 @@ a, a:link, a:hover, a:hover, a:visited {
     text-decoration: none;
 }
 aside a:hover{
-    border-left: solid 3px green;
+    color: white;
     text-decoration: none;
 }
-/* @media (max-width: 300px) {
-    aside {
-        flex-wrap: wrap;;
-    }
-        
-    a {
-        border-left-style: 5px solid green;
-    }
-} */
-
-/* a:hover{
-    border-left-style: 5px solid green;
-} */
-
-
-/* .sidebar .fa-brands fa-spotify{
-    border-left-style: 5px solid green;
-}
-
-.sidebar .fas fa-home{
-    border-left-style: 5px solid green;
-}
-
-.sidebar .fas fa-search{
-    border-left-style: 5px solid green;
-}
-
-.sidebar .fas fa-headphones-alt{
-    border-left-style: 5px solid green;
-} */
 
 
 /********************************/
@@ -140,81 +114,43 @@ header {
     display:flex;
     flex-direction: row;
     justify-content: right;
+    
 }
 
 #upgrade{
-    border:solid 1px #fff;
-    border-radius: 30px;
+    border:solid 1px rgb(204, 202, 202);
+    border-radius: 45px;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-block-end-style: #000;
+    border-block-start-style:#000;
+}
+#profile{
+    border:solid 1px rgba(93, 86, 86, 0.929);
+    background-color: rgba(93, 86, 86, 0.929);
+    border-radius: 45px;
+    font:bold rgb(204, 202, 202);
+    border-left-width: 20px;
+    border-right-width: 20px;
 
 }
-
+header a:hover{
+    color: #fff;
+}
 nav {
     display:flex;
     flex-direction: row;
     justify-content: left;
 
 }
-
-
-/* main, header, nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-}  */
-/* header, nav {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    width: 260px;
-    justify-content: space-between;
-} */
-
-#upgrade, #profile{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    scroll-margin-top: 60px;
+nav a:hover{
+    border-bottom: solid 3px green;
+    color: white;
+    text-decoration: none;
 }
-
-#playlists, #albums, #artists {
-    /* height: calc(100vh - 60px); */
-    height: 50px;
-    display:flex;
-    flex-direction: row;
-    align-items: left;
-    justify-content: center;
-    scroll-margin-top: 60px;
-    border-left: solid 3px transparent;
+#artists{
     border-bottom: solid 3px green;
 }
-
-/* .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    ". . . upgrade profile";
-}
-.header .upgrade {
-    grid-area: upgrade;
- }
- .header .profile {
-    grid-area: profile;
- } */
-/* .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    ". . . upgrade profile"
-    "playists albums artists . .";
-    "card-footer card-footer card-footer card-footer card-footer"
-} */
-
 
 
 
@@ -224,32 +160,50 @@ nav {
 
 /* Your Code Here */
 
-/* USE FLEXBOX!!! */
-.feature-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "artist-card artist-card artist-card artist-card artist-card"
-    "artist-card artist-card artist-card artist-card artist-card";
-    min-height: 200vh;
+.artist-card{
+    height:400px;
+    width: 20%;
+    padding:10px;
 }
 
-.feature-content .artist-card{
-    grid-area: artist-card;
-}
-.feature-content .artist-card{
-    grid-area: artist-card;
+.artist-card > div{
+    background-color:rgb(59, 56, 56);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
-.feature-content .artist-card{
-    grid-area: artist-card;
+.artist-card img{
+    width: 100%;
+    border-radius: 60%;
+    padding-bottom: 10px;
 }
-.feature-content .artist-card{
-    grid-area: artist-card;
+
+#featured-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
-.feature-content .artist-card{
-    grid-area: artist-card;
+.artist-card button{
+    display:None;
+    border-radius: 100px;
+    color: green;
+    background-color: rgba(172, 255, 47, 0.707);
+    border: solid 1px  rgba(172, 255, 47, 0.707) ;
 }
+
+.artist-card:hover button, .artist-card:hover {
+    display: block;
+}
+
+p{
+    color:rgb(204, 202, 202);
+}
+h2{
+    font-size: 22px;
+}
+
 
 
 
@@ -259,4 +213,33 @@ nav {
 
 /* Your Code Here */
 
-
+@media (max-width:1024px){
+    .artist-card{
+        height:400px;
+        width:33.3%;
+        padding:20px;
+    }
+}
+@media (max-width:600px){
+    aside{
+        display:none;
+    }
+    #upgrade{
+        display:none;
+    }
+    body {
+        overflow:hidden;
+        margin:grid;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "main"
+            "bottom";
+        height: 100vh;
+    }
+    .artist-card{
+        height:400px;
+        width:50%;
+        padding:20px;
+    }
+}
