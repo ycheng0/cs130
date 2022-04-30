@@ -80,6 +80,7 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 /* Your Code Here */
+
 aside{
     display: flex;
     align-items: left;
@@ -94,7 +95,7 @@ a, a:link, a:hover, a:hover, a:visited {
     padding: 5px;
     text-decoration: none;
 }
-a:hover{
+aside a:hover{
     border-left: solid 3px green;
     text-decoration: none;
 }
@@ -135,24 +136,62 @@ a:hover{
 /********************************/
 
 /* Your Code Here */
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#upgrade{
+    border:solid 1px #fff;
+    border-radius: 30px;
+
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+
+/* main, header, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}  */
+/* header, nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    justify-content: space-between;
+} */
+
 #upgrade, #profile{
     height: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     scroll-margin-top: 60px;
-    border-left: solid 3px transparent;
 }
 
-#Playlists, #Albums, #Artists {
-    height: calc(100vh - 60px);
+#playlists, #albums, #artists {
+    /* height: calc(100vh - 60px); */
+    height: 50px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: left;
     justify-content: center;
     scroll-margin-top: 60px;
     border-left: solid 3px transparent;
+    border-bottom: solid 3px green;
 }
 
 /* .header {
@@ -184,48 +223,33 @@ a:hover{
 /*************************/
 
 /* Your Code Here */
-.feature-item{
+
+/* USE FLEXBOX!!! */
+.feature-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "artist-card artist-card artist-card artist-card artist-card"
     "artist-card artist-card artist-card artist-card artist-card";
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
-.feature-item .artist-card{
+.feature-content .artist-card{
     grid-area: artist-card;
 }
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
-    grid-area: artist-card;
-}
-.feature-item .artist-card{
+.feature-content .artist-card{
     grid-area: artist-card;
 }
 
-
-
+.feature-content .artist-card{
+    grid-area: artist-card;
+}
+.feature-content .artist-card{
+    grid-area: artist-card;
+}
+.feature-content .artist-card{
+    grid-area: artist-card;
+}
 
 
 

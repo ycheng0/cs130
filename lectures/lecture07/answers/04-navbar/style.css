@@ -28,14 +28,14 @@ a {
     display: inline-block;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 0;
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 ul {
     list-style: none;
@@ -43,6 +43,6 @@ ul {
     width: 260px;
     justify-content: space-between;
 }
-ul, li, h1 {
+/* ul, li, h1 {
     margin: 0px;
-}
+} */
