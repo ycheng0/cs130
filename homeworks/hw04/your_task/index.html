@@ -10,23 +10,24 @@
     <body id="container">
         <aside id="sidebar">
             <h1>
-                <i class="fab fa-spotify"></i>
+                <i class="fab fa-spotify" aria-hidden="false"></i>
                 Spotify
             </h1>
             <a class="selected" href="#">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-search" aria-hidden="false"></i>
                 Search
             </a>
         </aside>
 
         <main>
             <header>
-                <i class="fas fa-search"></i>
+                <i class="fas fa-search" aria-hidden="false"></i>
                 <input type="search" 
                     placeholder="Search for Artists or Songs" 
                     id="search" 
-                    value="" />
+                    value="BTS" />
             </header>
+
             <article id="featured-content">
                 <section id="artist-section">
                     <h1>Top Result</h1>
@@ -55,7 +56,7 @@
                 </div>
                 <div class="slider">
                     <audio preload class="audio">
-                        <source src="#" type="audio/mpeg" />
+                        <ssource src="#" type="audio/mpeg" />
                     </audio>
                     <span id="time-elapsed">0:00</span>
                     <input aria-label="visually displays how the audio time is advancing" type="range" id="player-time">

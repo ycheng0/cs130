@@ -18,15 +18,16 @@ const search = (ev) => {
 
 const getTracks = (term) => {
     let url=`https://www.apitutor.org/spotify/simple/v1/search?type=track&q=${term}`;
+    //this code fetches tracks based on a search term and prints them to the console
     fetch(url)
     .then((response) => response.json())
+    // list of tracks is been held in "data"
     .then((data) => {
         if (data.length > 0) {
             let firstFive = data.splice(0, 5);
-            
             console.log(firstFive[0]);
         //   covnvert to html
-            let html = firstFive.map(track2Html);
+            let html = firstFive.map(track2Html).join('');
   
         //  plug it back to the index.html file
             document.querySelector("#tracks").innerHTML = html;
@@ -39,8 +40,8 @@ const getTracks = (term) => {
 const track2Html = (track) => {
     return`
     <button class="track-item preview" data-preview-track=${track.preview_url} onclick="handleTrackClick(event);">
-        <img src=${track.album.image_url}>
-        <i class="fas play-track fa-play" aria-hidden="true"></i>
+        <img src="${track.album.image_url}" alt ='Album photo of ${track.album.name}'/>
+        <i class="fas play-track fa-play" aria-hidden="false"></i>
         <div class="label">
             <h2>${track.album.name}</h2>
             <p>
@@ -52,14 +53,57 @@ const track2Html = (track) => {
 };
 getTracks("Pink Floyd")
   
-
-
 const getAlbums = (term) => {
-    console.log(`
-        get albums from spotify based on the search term
-        "${term}" and load them into the #albums section 
-        of the DOM...`);
+    let url=`https://www.apitutor.org/spotify/simple/v1/search?type=album&q=${term}`;
+    //this code fetches tracks based on a search term and prints them to the console
+    fetch(url)
+    .then((response) => response.json())
+    // list of tracks is been held in "data"
+    .then((data) => {
+        if (data.length > 0) {
+            counter = 0
+            eachAlbum = data[counter]
+            counter = counter +1
+        //   covnvert to html
+            let html = data.map(album2Html).join('');
+  
+        //  plug it back to the index.html file
+            document.querySelector("#albums").innerHTML = html;
+        } else {
+            let html = "<p>No albums were returned. </p>";
+            document.querySelector("#albums").innerHTML = html;
+        }
+    });
 };
+const album2Html = (a) => {
+    console.log(a)
+    // const album = a.album;
+    // const 
+    // if (album){}
+    // console.log(a.image_url)
+    // return ` 
+    // <section class="album-card" id="${a.id}">
+    //     <img src="${a.image_url}" />
+    // </section>
+    // `;
+    return`
+    <section class="album-card" id="${a.id}">
+    <div>
+        <img src="${a.image_url}" alt='Album photo of ${a.name}'/>
+            <h2>${a.name}</h2>
+            <div class="footer">
+                <a href=${a.spotify_url}  target="_blank">
+                    view on spotify
+            </a>
+            </div>
+    </div>
+    </section>
+    `;
+};
+
+getAlbums("Lady Gaga")
+
+
 
 const getArtist = (term) => {
     let url= `https://www.apitutor.org/spotify/simple/v1/search?type=artist&q=${term}`;
@@ -91,7 +135,7 @@ const artist2Html = (artist) => {
     return `
     <section class="artist-card" id=${artist.id}>
         <div>
-            <img src=${artist.image_url}>
+            <img src=${artist.image_url} alt ='Photo of ${artist.name}'>
             <h2>${artist.name}</h2>
             <div class="footer">
                 <a href=${artist.spotify_url} target="_blank">
@@ -105,9 +149,15 @@ const artist2Html = (artist) => {
 getArtist("Lady Gaga");
 
 const handleTrackClick = (ev) => {
+    console.log(ev.currentTarget)
     const previewUrl = ev.currentTarget.getAttribute('data-preview-track');
     console.log(previewUrl);
-}
+
+    audioPlayer.setAudioFile(previewUrl);
+    audioPlayer.play();
+};
+
+
 
 document.querySelector('#search').onkeyup = (ev) => {
     // Number 13 is the "Enter" key on the keyboard
